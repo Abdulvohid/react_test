@@ -1,0 +1,110 @@
+.footer__wrap {
+  background: #38485a;
+  color: #fff;
+  width: 100%;
+}
+.footer__hero {
+  padding-bottom: 150px;
+}
+.footer__content {
+  padding-top: 120px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+  margin-bottom: 38px;
+}
+.footer__title {
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer__disc {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  width: 235px;
+}
+.footer__span {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.footer__img {
+  margin-top: 50px;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+.footer__bottom__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom__finish {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom__finish__title {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  border-right: 1px solid;
+  padding-right: 2rem;
+}
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+}

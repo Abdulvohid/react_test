@@ -1,0 +1,58 @@
+.bannerBlock__wrap {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.bannerBlock__content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.block__img {
+  width: 50%;
+}
+.banner__block__img {
+  margin-bottom: 30px;
+}
+.banner__block__titles {
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.banner__block__disc {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #343434;
+  margin-bottom: 30px;
+}
+
+.bannerAbout__btn {
+  border: none;
+  transition: 0.5s ease;
+  &:hover {
+    transition: 0.5s ease;
+    color: #f07857;
+    .banner__btn__icon {
+      transform: translateX(10px);
+    }
+  }
+}
+
+.banner__btn__icon {
+  margin-left: 10px;
+}
+
+.block__title__text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #38485a;
+  margin-bottom: 38px;
+}
+
+.block__title__disc {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,26 @@
+.banner__hero {
+  display: flex;
+  justify-content: space-evenly;
+  //   gap: 40px;
+}
+.banner__wrap {
+  -webkit-box-shadow: 0px 18px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 18px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 18px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.banner__link {
+  text-decoration: none;
+  color: #38485a;
+  transition: 0.5s ease;
+  padding: 30px 0;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: bold;
+  &:hover {
+    color: #f07857;
+    transition: 0.5s ease;
+  }
+}
+.banner__link__first {
+  color: #f07857;
+}
